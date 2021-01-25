@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "app/js",
+    "noEmitOnError": true, //garante que não haverá compilação atualizada enquando não forem corrigidas os erros
+    "noImplicitAny": true, // para garantir que nada tera o tipo a não ser que o dev coloque [alguma variável]: any
+    "removeComments": true, //faz com que os comentários não sejam repassados pro arquivo compilado js
+    "module": "system",
+    "strictNullChecks": true,
+    "experimentalDecorators": true// Permite o uso do até então experimental recurso de decorators
+  },
+  "include": [
+    "app/ts/**/*"
+  ]
+}
